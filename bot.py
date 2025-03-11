@@ -3,9 +3,9 @@ import logging
 from pyrogram import Client, filters
 from scraper import TwitterScraper
 
-API_ID = "your_api_id"
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = "27788368"
+API_HASH = "9df7e9ef3d7e4145270045e5e43e1081"
+BOT_TOKEN = "7888029778:AAHeC7P5zONGjN3mY5q0Rm6-V1zzPx1ywEQ"
 
 app = Client("TwitterDownloaderBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 scraper = TwitterScraper()
